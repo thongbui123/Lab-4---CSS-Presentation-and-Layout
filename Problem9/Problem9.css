@@ -1,0 +1,154 @@
+.container {
+	background-color: #f1f1f1;
+	width: 60%;
+	border: 1px solid black;
+	padding: 2px;
+	display: flex;
+	box-sizing: border-box;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+}
+
+.aside-left {
+	width: 16%;
+	text-align: left;
+	padding-right: 2px;
+}
+
+.center{
+	width: 64%;
+	background-color: white;
+	border: 2px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.aside-right {
+	width: 20%;
+	display: block;
+	text-align: center;
+	align-items: center;
+	margin-left: 2px;
+}
+
+/*aside left div*/
+#home {
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-left: 0px;
+}
+
+#css-basic {
+	color: #9c2726;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: -10px;
+}
+
+.css-menu {
+	margin-top: -20px;
+}
+
+.css-menu > a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*center div*/
+.center {
+	padding: 4px;
+}
+
+#title-tutorial {
+	font-weight: bold;
+	font-size: 25px;
+	padding: 10px 0;
+	margin: -5px 0;
+}
+
+.btn-previous {
+	text-align: center;
+	padding: 2px 20px;
+	background-color: white;
+	font-size: 13px;
+}
+
+.btn-next{
+	text-align: center;
+	padding: 2px 30px;
+	background-color: white;
+	font-size: 13px;
+}
+
+hr{
+	border-top: 3px solid #C7C7C7;
+	width: 99%;
+	margin: 7px 0;
+}
+
+/*CSS Tutorial div (child of Center div)*/
+.css-title {
+	font-weight: bold;
+	background-color: #808080;
+	color: #fff;
+}
+.tutorial-content {
+	display: flex;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+
+.image{
+	width: 20%;
+}
+.image img{
+	max-width: 90%;
+	width: 100%;
+}
+.detail{
+	width: 80%;
+}
+.detail p{
+	font-weight: bold;
+	font-size: 14px;
+	margin: 5px 0;
+}
+
+.more-info{
+	text-decoration: underline;
+	color: #A13331;
+	font-size: 14px;
+	font-weight: 500;
+}
+.detail-example{
+	font-size: 14px;
+}
+/*aside-right div*/
+.aside-right-detail {
+	border: 2px solid #A1A1A1;
+	background-color: #fff;
+	margin-top: 2px;
+	width: 100%;
+}
+input {
+	width: 110px;
+}
+.aside-right-detail #more-style {
+	box-shadow: inset 0 0 3px 3px #A6DCF8;
+	background-color: #C1E7FA;
+	color: #47CEFD;
+	border: none;
+	padding: 3px 10px;
+	margin-top: 2px;
+}
+.aside-right-detail > .more-info{
+	display: block;
+	margin-top: -2px;
+	margin-bottom: 0;
+	padding: 0;
+}

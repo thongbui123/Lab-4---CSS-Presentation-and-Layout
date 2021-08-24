@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	max-width: 720px;
+	height: 300px;
+	background-color: #EEEBE4;
+	padding: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	flex-direction: row;
+	column-gap: 10px;
+	align-items: center;
+}
+.table-price {
+	width: 120px;
+	height: 220px;
+	background-color: white;
+	border: 3px solid #D6D3CD;
+	border-radius: 5px;
+	text-align: center;
+	padding: 0 20px 10px 20px;
+}
+#name{
+	color: #5FC1E7;
+	font-size: 24px;
+	font-weight: bold;
+}
+#price{
+	color: #FD935C;
+	font-size: 25px;
+	font-weight: bold;
+}
+#time{
+	color: #D0D9E4;
+	font-size: 12px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #D0D9E4;
+}
+.detail{
+	padding: 10px;
+}
+#benefi{
+	color: darkgray;
+	font-size: 12px;
+	text-align: left;
+}
+#benefi span{
+	font-size: 16px;
+	color: black;
+	font-weight: bold ;
+}#gb{
+	font-size: 13px !important;
+	font-weight: normal !important;
+}
+button{
+	padding: 7px 15px;
+	margin-top: 5px;
+	background-color: #FD935C;
+	border: none;
+	color: #fff;
+	border-radius: 3px;
+}
+#hover-title{
+	display: none;
+
+}
+.active #hover-title,
+.table-price:hover #hover-title{
+	display: block;
+	width: 100%;
+	padding: 2px;
+	background-color: #5FC1E7;
+	color: white;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.active,
+.table-price:hover {
+	height: 240px;
+	border: 4px solid #5FC1E7;
+}
+.active button,
+.table-price:hover button{
+	padding: 13px 20px;
+	background-color: #5FC1E7;
+}

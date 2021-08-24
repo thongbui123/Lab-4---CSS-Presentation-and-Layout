@@ -1,0 +1,44 @@
+.music{
+	border: 1px solid;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: lightgray;
+	padding: 15px;
+}
+.container{
+	display: flex;
+	border: 1px solid;
+	margin: 10px 0px 40px 0px;
+	background-color: white;
+	padding: 20px;
+}
+.img{
+	width: 30%;
+	box-sizing: border-box;
+}
+.img img{
+	max-width: 100%;
+	width: 100%;
+}
+.text{
+	width: 70%;
+	box-sizing: border-box;
+	padding-left: 20px;
+}
+.text p{
+	margin-top: 0px;
+}
+.button{
+	text-align: right;
+}
+.container .listen{
+	background-image: url(images/listen.png);
+	color: white;
+	padding-left: 21px;
+}
+.container .add{
+	background-image: url(images/add.png);
+	color: white;
+	padding-left: 21px;
+}
